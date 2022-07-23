@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        persona persona = new persona();
+        Persona persona = new Persona();
         persona.setEdad(21);
         persona.setNombre("Luis");
         persona.setTelefono("+581111111111");
@@ -10,7 +10,7 @@ public class Main {
         System.out.println("y su número de teléfono es "+persona.getTelefono());
     }
 }
-class persona{
+class Persona{
     private int edad;
     private String nombre;
     private String telefono;
